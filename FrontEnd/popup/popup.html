@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="css-percentage-circle-master/css/circle.css">
+
+</head>
+<body>
+  <img id = "head" src= "../images/nuntiaText.png" alt="head">
+  <img id = "icon" src= "../images/logoExtraShade128.png" alt="icon">
+
+
+  <img id="read-content" src= "../images/Group 23.png" alt="start">
+  <div id="loading-message" style="display: none;">
+    <div class="loader"></div>
+  </div>
+
+
+
+  <img id= "frame" src="../images/Frame 2.png" alt = "frame">
+
+  <div id="results-container" style="display: block;">
+    <div class = "result-container">
+      <h4 class="bias-label">Left</h4>
+      <div id = "page-bias-value-left-wheel" class="c100 p0 small">
+        <span id="bias-score-left">Left</span> 
+        <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+        </div>
+      </div>
+    </div>
+    <div class = "result-container">
+      <h4 class="bias-label">Right</h4>
+      <div id = "page-bias-value-right-wheel" class="c100 p0 small">
+        <span id="bias-score-right">Right</span> 
+        <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+        </div>
+      </div>
+    </div>
+    <div class = "result-container">
+      <h4 class="bias-label">Center</h4>
+      <div id = "page-bias-value-center-wheel" class="c100 p0 small">
+        <span id="bias-score-center">Center</span> 
+        <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
